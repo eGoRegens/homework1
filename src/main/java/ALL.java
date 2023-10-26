@@ -11,7 +11,7 @@ public class ALL {
 
     public static void valuesTringle(double a, double h) {
         double space = (a*h)/2;
-        System.out.println("Площадь треугольника равняется ");
+        System.out.println("Площадь треугольника равняется "+ space);
 
     }
 }

@@ -1,7 +1,7 @@
 public class S {
     public static void main(String[] args) {
-        int length = 6;
-        int width = 3;
-        System.out.println("Площадь прямоугольника:"+length*width);
+        int length1 = 6;
+        int length2 = 6;
+        System.out.println("Площадь квадрата:"+length1*length2);
     }
 }
