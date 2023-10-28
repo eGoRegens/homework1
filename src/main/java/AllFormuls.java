@@ -1,6 +1,6 @@
 public class AllFormuls {
     public static void main(String[] args) {
-        lengthSquare(4);
+        lengthSquare(4);               //длина стороны квадрата
         valuesTringle(5, 3);     // 5-основание(a), 3-высота(h)
         radiusCircle(1.7);
     }
