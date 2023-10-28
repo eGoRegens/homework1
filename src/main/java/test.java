@@ -5,6 +5,6 @@ public class test {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите значение стороны квадрата:");
         double x = s.nextDouble();
-        System.out.println("Площадь квадрата равна: "+x*x);
+        System.out.println("Площадь квадрата равна: " + x * x);
     }
 }
