@@ -1,6 +1,6 @@
 package lesson2;
 
-public class infantryStrength {
+public class InfantryStrength {
     public static void main(String[] args) {
         int infantryLannisters = 1500;
         int orksSaruman = 2000;
