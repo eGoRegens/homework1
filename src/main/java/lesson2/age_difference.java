@@ -6,6 +6,8 @@ public class age_difference {
         long ageOfTheHumans = 100000;
         long ageDifference = ageOfTheUniverse / ageOfTheHumans;
 
+        System.out.println("Возраст вселенной " + ageOfTheUniverse + " лет.");
+        System.out.println("Возраст человечества " + ageOfTheHumans + " лет.");
         System.out.println("Возраст вселенной больше в " + ageDifference + " раз больше возраста человечества.");
 
     }
