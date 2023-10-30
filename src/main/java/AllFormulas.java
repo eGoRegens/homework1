@@ -7,7 +7,7 @@ public class AllFormulas {
     }
 
     public static void SquareSpace(double length) {
-        double space = length * 2;
+        double space = length * length;
         System.out.println("площадь квадрата равняется - " + space);
     }
 
