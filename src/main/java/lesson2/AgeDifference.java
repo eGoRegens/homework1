@@ -9,7 +9,5 @@ public class AgeDifference {
         System.out.println("Возраст вселенной " + ageOfTheUniverse + " лет.");
         System.out.println("Возраст человечества " + ageOfTheHumans + " лет.");
         System.out.println("Возраст вселенной больше в " + ageDifference + " раз больше человечества.");
-
     }
-
 }

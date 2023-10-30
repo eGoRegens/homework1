@@ -6,7 +6,6 @@ public class DiscountsOnShirts {
         int numberOfSelectedShirts = 5; // уже выбранно рубашек
         int requiredQuantityForDiscount = 8;//требуемое кол-во для скидки
         float discountPercentage = 20;
-
         int stillNeedShirtsForDiscount = requiredQuantityForDiscount - numberOfSelectedShirts; //сколько нужно еще выбрать рубашек для скидки
         int totalPriceOfTheSelected = basePrice * numberOfSelectedShirts; //сумма выбранных рубашек без скидки
         int totalPriceShirtsNeedPurchased = stillNeedShirtsForDiscount * basePrice; //  общая цена рубашек (без скидки), которые надо докупить, чтобы получить скидку
@@ -14,6 +13,7 @@ public class DiscountsOnShirts {
         double pricePieceDiscount = discountedPriceOfSelectedShirts / requiredQuantityForDiscount; //цена за штуку со скидкой
         double amountSaved = (totalPriceOfTheSelected + totalPriceShirtsNeedPurchased) - discountedPriceOfSelectedShirts; //количество сэкономленных денег при сикдке
         double freeShirts = amountSaved / basePrice;
+        int freeShirtsInt = (int) freeShirts;
 
         System.out.println("Цена за одну рубашку без скидки - " + basePrice + " у.е.");
         System.out.println("Кол-во выбранных рубашек - " + numberOfSelectedShirts + " шт.");
@@ -25,8 +25,6 @@ public class DiscountsOnShirts {
         System.out.println("Сумма рубашек со скидкой - " + discountedPriceOfSelectedShirts + " у.е.");
         System.out.println("Цена одной рубашки со скидкой - " + pricePieceDiscount + " у.е.");
         System.out.println("Экономия составит - " + amountSaved + " у.е.");
-        System.out.println("Кол-во рубашек полученных бесплатно - " + freeShirts + " шт.");
-
-
+        System.out.println("Кол-во рубашек полученных бесплатно - " + freeShirtsInt + " шт.");
     }
 }

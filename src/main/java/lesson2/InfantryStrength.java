@@ -9,6 +9,5 @@ public class InfantryStrength {
         System.out.println("Численность пехоты у Ланнистеров составляет - " + infantryLannisters + " единиц.");
         System.out.println("Численность пехоты Сарумана равна " + orksSaruman + " единицам.");
         System.out.println("Общая численность пехоты Ланнистеров и Сарумана равна " + totalNumberOfInfantry + " единицам.");
-
     }
 }

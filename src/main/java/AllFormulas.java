@@ -1,4 +1,4 @@
-public class AllFormuls {
+public class AllFormulas {
     public static void main(String[] args) {
         double lengthSquare = 10;      //длина стороны квадрата
         SquareSpace(lengthSquare);
@@ -7,7 +7,7 @@ public class AllFormuls {
     }
 
     public static void SquareSpace(double length) {
-        double space = length * length;
+        double space = length * 2;
         System.out.println("площадь квадрата равняется - " + space);
     }
 
