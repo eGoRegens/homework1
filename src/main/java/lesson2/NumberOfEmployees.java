@@ -1,6 +1,6 @@
 package lesson2;
 
-public class Number_of_Employees {
+public class NumberOfEmployees {
     public static void main(String[] args) {
         int quantityProgrammers = 3;
         int quantityTestersForProgrammers = 1; // кол-во тестеров на одного программиста
