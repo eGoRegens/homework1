@@ -2,7 +2,7 @@ package lesson2;
 
 public class InfantryStrength {
     public static void main(String[] args) {
-        int infantryLannisters = 1500;
+        int infantryLannisters = 1207;
         int orksSaruman = 2000;
         int totalNumberOfInfantry = infantryLannisters + orksSaruman;
 
